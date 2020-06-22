@@ -2,8 +2,6 @@ package com.bank.kata.application.service.error;
 
 public class NegativeAmountException extends Exception {
 
-    private static final long serialVersionUID = 7657622788569863045L;
-
     public NegativeAmountException() {
         super();
     }

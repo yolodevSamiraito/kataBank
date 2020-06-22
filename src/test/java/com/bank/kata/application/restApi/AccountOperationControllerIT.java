@@ -4,7 +4,6 @@ import com.bank.kata.application.KataBankAccountApplication;
 import com.bank.kata.application.dao.AccountRepository;
 import com.bank.kata.application.entities.Account;
 import com.bank.kata.application.entities.History;
-import com.bank.kata.application.service.AccountService;
 import com.bank.kata.application.service.dto.AccountDTO;
 import com.bank.kata.application.service.dto.HistoryDTO;
 import com.bank.kata.application.service.mapper.AccountMapper;

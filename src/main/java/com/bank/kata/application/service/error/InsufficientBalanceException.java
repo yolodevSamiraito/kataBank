@@ -2,8 +2,6 @@ package com.bank.kata.application.service.error;
 
 public class InsufficientBalanceException extends Exception {
 
-    private static final long serialVersionUID = 7657622788569863045L;
-
     public InsufficientBalanceException() {
         super();
     }

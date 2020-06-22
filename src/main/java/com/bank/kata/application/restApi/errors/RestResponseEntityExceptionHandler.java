@@ -14,21 +14,21 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 @ControllerAdvice
 public class RestResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {
 
-    @ExceptionHandler({ AccountNotFoundException.class })
+    @ExceptionHandler( AccountNotFoundException.class )
     public ResponseEntity<Object> handleAccountNotFoundException(
             Exception ex) {
         return new ResponseEntity<>(
                 ex.getMessage(), new HttpHeaders(), HttpStatus.NOT_FOUND);
     }
 
-    @ExceptionHandler({ NegativeAmountException.class })
+    @ExceptionHandler( NegativeAmountException.class )
     public ResponseEntity<Object> handleNegativeAmountException(
             Exception ex) {
         return new ResponseEntity<>(
                 ex.getMessage(), new HttpHeaders(), HttpStatus.BAD_REQUEST);
     }
 
-    @ExceptionHandler({ InsufficientBalanceException.class })
+    @ExceptionHandler( InsufficientBalanceException.class )
     public ResponseEntity<Object> handleInsufficientBalanceException(
             Exception ex) {
         return new ResponseEntity<>(
