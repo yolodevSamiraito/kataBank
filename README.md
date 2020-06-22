@@ -9,7 +9,7 @@ To Build and Run the Project use the command bellow:
 
 To Test the Project use the command bellow:
 ```
-> mvn tst
+> mvn test
 ```
 
 The App uses the port 8181 so to access it, use the link bellow:
