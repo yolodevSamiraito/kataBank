@@ -48,4 +48,4 @@ Get
 http://localhost:8181//api/account/{id}/print
 ```
 
-The dataBase contains 2 accounts, with Ids 1 and 2, which can be used for tests.
+The dataBase contains 2 accounts, with Ids 1 and 2, which can be used for manual tests.
