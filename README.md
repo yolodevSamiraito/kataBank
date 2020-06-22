@@ -9,7 +9,7 @@ To Build and Run the Project use the command bellow:
 
 To Test the Project use the command bellow:
 ```
-> mvn tst
+> mvn test
 ```
 
 The App uses the port 8181 so to access it, use the link bellow:
@@ -48,4 +48,4 @@ Get
 http://localhost:8181//api/account/{id}/print
 ```
 
-The dataBase contains 2 accounts, with Ids 1 and 2, which can be used for tests.
+The dataBase contains 2 accounts, with Ids 1 and 2, which can be used for manual tests.
